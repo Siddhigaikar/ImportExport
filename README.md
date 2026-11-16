@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # **Import-Export Management System**
 
@@ -342,3 +343,6 @@ http://localhost:8080/ImportExportPortal/
 
 The **Import-Export Management System** effectively bridges the gap between sellers and consumers through an organized, secure, and automated platform.
 It enhances the traditional trading process by introducing **real-time order tracking, role-based operations, and intelligent analytics**, making it a scalable and modern solution for digital commerce.
+=======
+# ImportExport
+>>>>>>> fe6bd2d65e7a226ec6c48171631c01b83f01d9d6
