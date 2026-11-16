@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 # **Import-Export Management System**
 
@@ -13,20 +12,6 @@ By using this portal, consumers can browse and order products, track their shipm
 Sellers can add new products, update product details, manage received orders, handle consumer reports, and analyze their sales performance.
 
 This system ensures **secure authentication**, **real-time updates**, and **role-based access control** using Java Servlets, JSP, and MySQL — following the **MVC architecture** for clean separation of logic, presentation, and data handling.
-
----
-## 🎥 Demo Video
-
-▶️ Watch the complete walkthrough of the Import-Export Management System covering:
-
-- Consumer & Seller authentication
-- Product management and order workflow
-- Cart, order placement & tracking
-- Sales analytics dashboard
-- Complaint/issue reporting system
-- Profile and dashboard management
-
-[▶ Watch Project Demo](https://youtu.be/Xiwr_zZfXvo)
 
 ---
 
@@ -250,41 +235,6 @@ Database includes **stored procedures** for efficient queries and **triggers** f
 
 ---
 
-## **Team Contributions**
-
-| Member                      | Responsibilities                                                                                                                       |
-| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| **Minal Maurya**            | Authentication & Authorization, Consumer and Seller Dashboards, Sales Analysis, Common UI Pages (Settings, About, Contact, FAQ, Help). |
-| **Arpit Ghosh**             | Product Management Module (CRUD operations, product listing).                                                                          |
-| **Aadesh Pathak**           | Order Management Module (cart, order tracking, order status updates).                                                                  |
-| **Saiganesh Chinthakayala** | Reported Product Handling (complaint management and issue tracking).                                                                   |
-| **Anisha Kanojia**          | Profile Management and frontend assistance for user pages.                                                                             |
-
----
-
-## 🚀 Steps to Run the Project
-
-### 1. Clone or Download the Repository
-
-```bash
-git clone https://github.com/MinalMaurya/ImportExportSystem.git
-```
-
-Or download the ZIP file and extract it.
-
-### 2. Import Project into Eclipse IDE
-
-- Open **Eclipse IDE**
-- Go to:
-
-```plaintext
-File → Import → Existing Projects into Workspace
-```
-
-- Select the project folder
-- Click **Finish**
-
-
 ### 3. Setup MySQL Database
 
 - Open **MySQL Workbench**
@@ -327,16 +277,6 @@ Start the Tomcat server and open:
 ```plaintext
 http://localhost:8080/ImportExportPortal/
 ```
----
-
-## **Future Enhancements**
-
-* Admin module for managing users and sellers.
-* Email/SMS notification for order updates.
-* Online payment integration.
-* Advanced analytics dashboard with filters.
-* AI-based product recommendation system.
-
 ---
 
 ##  **Conclusion**
