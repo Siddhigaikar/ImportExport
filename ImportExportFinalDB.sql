@@ -100,6 +100,7 @@ begin
 end &&
 
 -- Trigger: After delete on consumer_port
+delimiter &&
 create trigger trg_consumer_delete
 after delete on consumer_port
 for each row
@@ -109,6 +110,7 @@ begin
 end &&
 
 -- Trigger: After insert on seller_port
+delimiter &&
 create trigger trg_seller_insert
 after insert on seller_port
 for each row
@@ -118,6 +120,7 @@ begin
 end &&
 
 -- Trigger: After update on seller_port
+delimiter &&
 create trigger trg_seller_update
 after update on seller_port
 for each row
@@ -127,6 +130,7 @@ begin
 end &&
 
 -- Trigger: After delete on seller_port
+delimiter &&
 create trigger trg_seller_delete
 after delete on seller_port
 for each row
@@ -137,7 +141,7 @@ end &&
 
 -- Registration procedure
 drop procedure if exists register_user &&
-
+delimiter &&
 create procedure register_user(
     in r_port_id varchar(50),
     in r_password varchar(40),
@@ -184,6 +188,7 @@ begin
 end &&
 -- Login procedure
 drop procedure if exists login_user &&
+delimiter &&
 create procedure login_user(
     in l_port_id varchar(50),
     in l_password varchar(40),
@@ -391,6 +396,7 @@ delimiter ;
 delimiter $$
 
 drop procedure if exists add_product $$
+delimiter $$
 create procedure add_product(
     in p_seller_port_id varchar(50),
     in p_product_name varchar(255),
@@ -472,6 +478,7 @@ delimiter ;
 delimiter $$
 
 drop procedure if exists list_products $$
+delimiter $$
 create procedure list_products()
 begin
     select * from products;
@@ -1157,3 +1164,8 @@ CALL get_seller_sales_monthly_with_dates('Minal@123','2025-07-01','2025-07-31'
 );
 CALL get_seller_sales_yearly_with_dates('Minal@123','2025-01-01','2025-12-31');
 show tables;
+
+
+SHOW DATABASES;
+USE import_export;
+SHOW TABLES;

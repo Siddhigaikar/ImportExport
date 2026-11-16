@@ -14,7 +14,7 @@ public class GetConnection {
 
         Connection connection = null;
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/import_export", "root", "Your_Password");
+            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/import_export", "root", "roots@20");
             // Update your MySQL username and password before running the project
         } catch (SQLException e) {
             e.printStackTrace();
