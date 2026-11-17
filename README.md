@@ -239,9 +239,9 @@ Database includes **stored procedures** for efficient queries and **triggers** f
 
 | **Member** | **Responsibilities** |
 | --- | --- |
-| **Minal Maurya** | Authentication & Authorization, Consumer and Seller Dashboards, Sales Analysis, Common UI Pages (Settings, About, Contact, FAQ, Help). |
+| **Minal Maurya** | Authentication & Authorization, Consumer, Sales Analysis. |
 | **Arpit Ghosh** | Product Management Module (CRUD operations, product listing). |
-| **Siddhi Gaikar** | Order Management Module (cart, order tracking, order status updates). |
+| **Siddhi Gaikar** | Order Management Module (cart, order tracking, order status updates) and Seller Dashboards . |
 | **Saiganesh Chinthakayala** | Reported Product Handling (complaint management and issue tracking). |
 | **Anisha Kanojia** | Profile Management and frontend assistance for user pages. |
 
